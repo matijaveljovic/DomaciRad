@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <form>
+        <table border="1"
+        style="border-collapse:collapse;">
+       <tr>  
+          <td colspan="2" style="text-align:center">Pizza Shop 2.0 </td>
+          </tr>
+          <tr>
+              <td>Name </td>
+              <td> <input type="text"
+                required
+                name="name"
+                id="name"
+                maxlength="20"/></td>
+          </tr>
+          <tr>
+              <td>Pizza Topping</td>
+              <td>Supreme<input type="radio"
+                    
+                name="Topping"
+
+                value="Supreme"/>
+                <br>
+                Vegeterian<input type="radio"
+                    
+                name="Topping"
+
+                value="Vegeterian"/>
+                <br>
+                  Hawaiian<input type="radio"
+                    
+                name="Topping"
+
+                value="Hawaiian"/>
+
+              </td>
+              <tr>
+                  <td>Pizza Sauce</td>
+                  <td>
+                      <select name="Sauce" id="Sauce" >
+                      <option value="1" disabled>Select Sauce</option>
+                    <option value="2" >Tomato</option>
+                    <option value="3" >Garlic</option>
+                    <option value="4" >Hot Sauce</option>
+                    <option value="5" >Mayo</option>
+                </select>
+
+                  </td>
+                
+              </tr>
+              <tr>
+                  <td>Optional Extras</td>
+                  <td> Extra Cheese<input
+                    type="checkbox"
+                    name="Extras"
+                    value="Extra Cheese"/>
+                    Gluten Free Base<input
+                    type="checkbox"
+                    name="Extras"
+                    value="Gluten Free Base"/>
+
+                
+                </td>
+              </tr>
+              <tr>
+                  <td colspan="2">
+                        Delivery Instructions:
+                        <br>
+                        <textarea name="Delivery Instructions" id="Delivery Instructions" cols="40" rows="3" maxlength="200" required>
+                                
+                            </textarea>
+
+                  </td>
+              </tr>
+              <tr>
+                <td colspan="2"><input type="submit" value="Send My Order" ></td>
+              </tr>
+
+          
+
+
+
+
+
+        </table>
+
+
+    </form>
+
+</body>
+
+</html>
