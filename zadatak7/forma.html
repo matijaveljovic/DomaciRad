@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+            <caption><h1>Software Order Form</h1></caption>
+        
+            <form>
+                <fieldset>
+           <legend>License details</legend>
+            <ul type:"disc">
+                <li>Email Address <input type="email"
+                    placeholder="example@yahoo.com"
+                    name="email"
+                    id="email" required/> </li>
+                    <li>Webiste <input type="text"
+                        placeholder="//https:example.com"
+                        name="website"
+                        id="website" required/></li>
+                     <li> Number of license<input type="number"
+                    placeholder="How many to buy(1-10)"
+                    name="number of license"
+                    id="number of license" required/> </li>
+                </fieldset>
+                    <br>
+                    <fieldset>
+                    <legend>Billing details</legend>
+                        <li>Name <input type="text"
+                        placeholder="First Last"
+                        name="name"
+                        id="name" required/> </li>
+                  <li>Address <textarea name="address" id="address"
+                             placeholder="House number,street,city,state"
+                             cols="30" rows="7" required></textarea> </li>
+                             <li>Postal code <input type="number"
+                                placeholder="Post code or zip code"
+                                name="postal code"
+                                id="postal code" required/> </li>
+                        <li> Country<select name="Country" id="Country"  required>
+                                       
+                                        <option value="1" disabled>Select Country
+                
+                                        </option>
+                                        <option value="2">Austria</option>
+                                        <option value="3">Russia</option>
+                                        <option value="4">Serbia</option>
+                                        <option value="5">Greece</option>
+                                        <option value="6">Brasil</option>
+                                    </select></li>
+                                    <li>Phone(optional) <input type="number"
+                                        placeholder="Include country prefix,e.g.+382/xxx/xxx"
+                                        name="phone"
+                                        id="phone"  /> </li>
+                                    </fieldset>
+                                        <br>
+                                        <fieldset> 
+                                      <legend>  Payment details </legend>
+                                        <li>Card number<input type="number"
+                                            placeholder="As shown on the front of your card"
+                                            name="Card number"
+                                            id="Card number" required/> </li>
+                             <li>CVV <input type="number"
+                               placeholder="3-digit number on back of your card"
+                               name="CVV"
+                               id="CVV" required/> </li>
+                               <li>Expiry date<input type="date"
+                                placeholder="YYYY-MM"
+                                name="Expiry date"
+                                id="Expiry date" required/> </li>
+                                   </ul>
+                                </fieldset>
+           <input type="submit" value="Place your order" >    
+                               
+
+
+        </form>
+
+    </body>
+</html>
